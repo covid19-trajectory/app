@@ -1,0 +1,12 @@
+$colorMain: #334455;
+$colorLink: #800;
+
+$rwd-narrow: 1200px;
+
+@mixin rwd($media) {
+  @if $media == narrow {
+    @media (max-width: $rwd-narrow) {
+      @content;
+    }
+  }
+}

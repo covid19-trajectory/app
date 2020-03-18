@@ -1,0 +1,12 @@
+@import '../../variables.scss';
+
+.Header {
+  padding: 1rem 0;
+  border-bottom: 1px solid $colorMain;
+  margin-bottom: 1rem;
+  strong {
+    font-size: 1.7rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}

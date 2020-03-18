@@ -1,0 +1,19 @@
+@import '../../variables.scss';
+
+.Teaser {
+  display: block;
+  padding: 1rem;
+  border: 2px solid #eee;
+  background-color: #fcfcfc;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  &:hover {
+    border-color: $colorLink;
+  }
+  h2 {
+    margin: 0;
+  }
+  &__date {
+    margin-top: 1rem;
+  }
+}

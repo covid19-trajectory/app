@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+
+.Charts {
+  display: flex;
+  align-items: flex-start;
+  &__graph {
+    flex-grow: 1;
+    margin-left: 1rem;
+  }
+  @include rwd(narrow) {
+    display: block;
+    &__graph {
+      margin-left: 0;
+    }
+  }
+}
