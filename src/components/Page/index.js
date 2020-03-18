@@ -1,13 +1,15 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Header, Article } from '../';
+import { Header, Article, Teaser } from '../';
 
-export default ({ id: paramId }) => {
-  const { id } = useParams();
+export default ({ id: propId }) => {
+  const { id: paramId } = useParams();
+  const id = propId || paramId;
   return (
     <div>
       <Header />
-      <Article id={paramId || id} />
+      <Article id={id} />
+      {id !== 'kontakt' && <Teaser id="kontakt" title="Kontakt" />}
     </div>
   );
 };

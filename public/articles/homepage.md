@@ -7,20 +7,21 @@
 
 <div
     data-type="teaser"
+    data-id="2020-03-16-prognoza-epidemii"
+    data-title="Prognoza epidemii w Polsce dla danych z dnia 17 marca"
+    data-date="W przygotowaniu"
+></div>
+
+<div
+    data-type="teaser"
     data-id="prognoza-zgonow"
-    data-title="Prognoza zgonów"
-    data-date="wkrótce"
+    data-title="Prognoza zgonów w Polsce"
+    data-date="Wkrótce"
 ></div>
 
 <div
     data-type="teaser"
     data-id="inne-kraje"
-    data-title="Inne kraje"
-    data-date="wkrótce"
-></div>
-
-<div
-    data-type="teaser"
-    data-id="kontakt"
-    data-title="Kontakt, współpraca"
+    data-title="Analiza rozwoju i prognozy epidemii w innych krajach"
+    data-date="Wkrótce"
 ></div>

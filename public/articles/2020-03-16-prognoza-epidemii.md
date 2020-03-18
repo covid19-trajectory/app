@@ -1,5 +1,12 @@
 ** Data opracowania: wtorek, 17 marca 2020, godz. 23:45 **
 
+> tl;dr: Według zaprezentowanego poniżej modelu, przewidywana liczba zarażeń:
+>
+> - jutro (18 marca): około 320
+> - pojutrze (19 marca): około 430
+>
+> Przeczytaj, [dlaczego przewidywania są ważne i potrzebne](/#/dlaczego-prognozy-sa-wazne-i-potrzebne)?
+
 # W dniu 17 marca mija 14 dni od pierwszego zdiagnozowanego zarażenia w Polsce
 
 Po 14 dniach, jest 238 zarażań i 5 zgonów:
@@ -129,14 +136,14 @@ Jeżeli przyjmiemy dalszy przyrost `P` w takim samym tempie, to prognoza liczby 
     data-charttype="Line"
 ></div>
 
-Gdy nie zostaną podjęte nowe działania zapobiegawcze, to zaproponowany model przewiduje:
+Gdy więc nie zostaną podjęte dalsze działania zapobiegawcze, to zaprezentowany model przewiduje:
 
 - na początku kwietnia przekroczenie kilkunastu tysięcy liczby zarażonych i osiągnięcie maksymalnej wydolności szpitali i oddziałów ratunkowych
 - w połowie kwietnia, przekroczenie zarażenia połowy ludności (zakładając, że zaraźliwość na bezpośrednią ekspozycję z wirusem wynosi 100%)
 
 # Porównanie z prognozą, gdyby nie zostały podjęte żadne działania zapobiegawcze
 
-Gdyby nie zostały podjęte żadne działania zapobiegawcze i `P` pozostało na poziomie 1.6 doby, przekroczona wydolność szpitali i oddziałów ratunkowych nastąpiłaby już za tydzień:
+Gdyby nie zostały podjęte żadne działania zapobiegawcze i `P` pozostało na poziomie 1.6 doby jak w pierwszym tygodniu (a więc przy normalnych zachowaniach i nawykach ludzi), przekroczona wydolność szpitali i oddziałów ratunkowych nastąpiłaby już za tydzień:
 
 <div
     data-type="charts"
@@ -146,6 +153,6 @@ Gdyby nie zostały podjęte żadne działania zapobiegawcze i `P` pozostało na 
     data-charttype="Line"
 ></div>
 
-Dlatego tak ważny jest każdy powód do zwiększania `P`.
-
-To decyzje rządu, ale przede wszystkim każdego z nas, każdego dnia, sumują się do zmniejszania - bądź dalszego zwiększania, epidemii.
+> ### Dlatego tak ważny jest każdy powód do zwiększania `P`.
+>
+> ### To decyzje rządu, ale przede wszystkim każdego z nas, każdego dnia, sumują się do zmniejszania - bądź dalszego zwiększania, epidemii.
