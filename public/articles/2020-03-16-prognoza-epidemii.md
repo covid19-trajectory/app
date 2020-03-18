@@ -34,7 +34,7 @@ Jeżeli `P` będzie się zwiększać, niejako "kupujemy" czas:
 
 - zmniejszamy liczbę zarażonych i zgonów
 - mamy szansę nieprzekroczyć wydolności szpitali
-- jeśli szczepionka powstanie za określony czas, otrzyma ją więcej ludzi, bo unikniemy zgony jakie wystąpiłyby przy niższym `P`
+- jeśli szczepionka powstanie za określony czas, otrzyma ją więcej ludzi, bo unikniemy zgonów jakie wystąpiłyby przy niższym `P`
 
 Dla `P=1.6` poniższe wykresy zdiagnozowanych zarażeń oraz modelu pokrywają się bardzo mocno do 10 dnia epidemii.
 
