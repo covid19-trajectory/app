@@ -8,18 +8,30 @@ Po 14 dniach, jest 238 zarażań i 5 zgonów:
     data-type="charts"
     data-chartuid="1BEHxmF1bQHv3btAa2RV8uCeu-yKKthO11Z7cvuPIUgg"
     data-range="B1:D100"
->
-</div>
+></div>
 
 # Co ile dni następowało podwojenie liczby zarażonych?
 
-Epidemia cechuje się rozwojem o przyroście wykładniczym. Jeżeli nie zostaną wprowadzone środki zapobiegawcze (kwarantanna/szczepionka), krzywa wykładnicza nie zmnieni się w krzywą logistyczną.
+Epidemia cechuje się rozwojem o przyroście wykładniczym. Jeżeli nie zostaną wprowadzone środki zapobiegawcze (kwarantanna/szczepionka), krzywa wykładnicza nie zmnieni się w krzywą logistyczną:
 
-Rozwój epidemii można zatem zamodelować według wzoru `y=2^(x/P)`, gdzie `P` oznacza czas, po jakim dochodzi do podwojenia liczby zarażonych.
+<div
+    data-type="image"
+    data-filename="krzywe.png"
+></div>
+
+Rozwój epidemii obecnie można zatem zamodelować według wzoru `y=2^(x/P)`, gdzie `P` oznacza czas, po jakim dochodzi do podwojenia liczby zarażonych.
+
+Im mniejsze `P`, tym krzywa wykładnicza wzrasta szybciej, im większe - wolniej.
+
+Jeżeli `P` będzie się zwiększać, niejako "kupujemy" czas:
+
+- zmniejszamy liczbę zarażonych i zgonów
+- mamy szansę nieprzekroczyć wydolności szpitali
+- jeśli szczepionka powstanie za określony czas, otrzyma ją więcej ludzi, bo unikniemy zgony jakie wystąpiłyby przy niższym `P`
 
 Dla `P=1.6` poniższe wykresy zdiagnozowanych zarażeń oraz modelu pokrywają się bardzo mocno do 10 dnia epidemii.
 
-Zatem przez pierwsze 10 dni epidemii, podwojenie zarażonych następowało średnio co 38 godzin (1.6 doby):
+Zatem przez pierwsze 10 dni epidemii, podwojenie zarażonych następowało mniej więcej co 40 godzin:
 
 <div
     data-type="charts"
@@ -27,8 +39,7 @@ Zatem przez pierwsze 10 dni epidemii, podwojenie zarażonych następowało śred
     data-range="B1:D15"
     data-rangetable="A1:E15"
     data-charttype="Line"
->
-</div>
+></div>
 
 Wartość `P` zmienia w czasie. Może rosnąć lub maleć.
 
@@ -44,7 +55,7 @@ Przykłady powodów do zwiększania się `P`:
 Przykłady powodów do zmniejszania się `P`:
 
 - napływ zainfekowanych z zagranicy bez narzucania im kwarantanny
-- zwiększenie ilości interakcji między ludźmi (np. premiera hitu w kinach, okres rekolekcji, święta Wielkanocy)
+- zwiększenie ilości interakcji i migracji ludzi (np. premiery hitów w kinach, koncerty, festiwale, okres rekolekcji, święta Wielkanocy)
 
 Od momentu zainfekowania, pierwsze objawy zaczynają występować po około pięciu dniach (potrzebne źródło lub weryfikacja).
 
@@ -58,8 +69,7 @@ Dostosowując wartość `P` do danych empirycznych widzimy, że stopniowo wzrast
     data-rangetable="A1:E15"
     data-range="B1:D15"
     data-charttype="Line"
->
-</div>
+></div>
 
 W dotychczasowym okresie 14 dni epidemii, `P` po kilku dniach zaczęło wzrastać liniowo:
 
@@ -68,8 +78,7 @@ W dotychczasowym okresie 14 dni epidemii, `P` po kilku dniach zaczęło wzrasta�
     data-chartuid="135bACtrntkTPaFbuH8AWyg_ybYQGn14W6vx1Ax1Z0jo" 
     data-range="B1:B15,E1:E15"
     data-charttype="Line"
->
-</div>
+></div>
 
 Data rozpoczęcia wzrostu liniowego `P` to 8-9 marca - wówczas mieliśmy w Polsce kilkanaście przypadków zarażenia.
 
@@ -78,12 +87,17 @@ Próba interpretacji to zmiana zachowania ludzi:
 - zaczęli odpowiadać na apele o częste mycie rąk
 - w miarę możliwości pozostawali w domach
 
-# Prognoza ilości zakażonych
+# Prognoza ilości zarażonych
 
-> #### UWAGA! Poniższa prognoza opiera się wyłącznie na modelu matematycznym, który:
+> ### UWAGA!
+>
+> #### Poniższa prognoza opiera się wyłącznie na modelu matematycznym, który:
 >
 > - opera się na założeniach mogących okazać się błędnymi
 > - nie uwzględnia nowo podjętych działań, jakie mogą nastąpić w kolejnych dniach i tygodniach
+> - została wykonana z największą starannością, ale jednak przez amatora (nie jestem epidemiologiem)
+>
+> Zapraszam do [kontaktu](/#kontakt) osoby potrafiące udoskonalić model.
 
 W okresie 9-13 marca zostały podjęte decyzje, m. in.:
 
@@ -101,25 +115,24 @@ Przybywa również reakcji na apele, m. in.:
 - ograniczanie dostępności urzędów dla kontaktu fizycznego i przechodzenie na załatwianie spraw przez telefon lub internet
 - zawieszenie opłat parkingowych, by zmniejszyć ruch w komunikacji miejskiej
 
-Z drugiej strony do 15 marca, osoby przybywające do Polski
+Z drugiej strony do 15 marca mieliśmy otwarte granice, więc teorietycznie mogło przybyć osób zainfekowanych przybywających do Polski nie mając wówczas jeszcze objawów.
 
-W dniach 9-13 marca `P` dziennie zwiększało się o około 0.3 dobry, czyli 7 godzin.
+W dniach 9-13 marca `P` dziennie zwiększało się o około 0.3 dobry, czyli około 7 godzin.
 
-Jeżeli przyjmiemy dalszy przyrost `P` w takim samym tempie, to prognoza liczby zakażonych wygląda następująco:
+Jeżeli przyjmiemy dalszy przyrost `P` w takim samym tempie, to prognoza liczby zarażonych wygląda następująco:
 
 <div
     data-type="charts"
     data-chartuid="1cTiHGwqBwJETGcuFNnKbYnj3EMMFc21hrP6D6V_3KEE"
     data-rangetable="A1:E81"
-    data-range="B1:D81"
+    data-range="B1:B42,D1:D42"
     data-charttype="Line"
->
-</div>
+></div>
 
-Gdy nie zostaną podjęte nowe działania zapobiegawcze, to:
+Gdy nie zostaną podjęte nowe działania zapobiegawcze, to zaproponowany model przewiduje:
 
-- na początku kwietnia przekroczymy liczbę kilkunastu tysięcy zakażonych i nastąpi przekroczenie wydolność szpitali i oddziałów ratunkowych
-- w połowie kwietnia, połowa ludności kraju byłaby zakażona
+- na początku kwietnia przekroczenie kilkunastu tysięcy liczby zarażonych i osiągnięcie maksymalnej wydolności szpitali i oddziałów ratunkowych
+- w połowie kwietnia, przekroczenie zarażenia połowy ludności (zakładając, że zaraźliwość na bezpośrednią ekspozycję z wirusem wynosi 100%)
 
 # Porównanie z prognozą, gdyby nie zostały podjęte żadne działania zapobiegawcze
 
@@ -129,7 +142,10 @@ Gdyby nie zostały podjęte żadne działania zapobiegawcze i `P` pozostało na 
     data-type="charts"
     data-chartuid="1cTiHGwqBwJETGcuFNnKbYnj3EMMFc21hrP6D6V_3KEE"
     data-rangetable="A1:C42,F1:F42"
-    data-range="B1:C42,F1:F42"
+    data-range="B1:B42,F1:F42"
     data-charttype="Line"
->
-</div>
+></div>
+
+Dlatego tak ważny jest każdy powód do zwiększania `P`.
+
+To decyzje rządu, ale przede wszystkim każdego z nas, każdego dnia, sumują się do zmniejszania - bądź dalszego zwiększania, epidemii.

@@ -9,6 +9,9 @@
   }
   @include rwd(narrow) {
     display: block;
+    &__table {
+      margin-bottom: 1rem;
+    }
     &__graph {
       margin-left: 0;
     }

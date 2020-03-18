@@ -2,7 +2,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import HtmlToReact from 'html-to-react';
 import htmlParser from 'react-markdown/plugins/html-parser';
-import { Chart, Charts, Teaser, Article } from '../';
+import { Chart, Charts, Teaser, Article, Image } from '../';
 
 const processNodeDefinitions = new HtmlToReact.ProcessNodeDefinitions(React);
 
@@ -25,6 +25,7 @@ const parseHtml = htmlParser({
         if (type === 'teaser') return <Teaser {...params} />;
         if (type === 'chart') return <Chart {...params} />;
         if (type === 'charts') return <Charts {...params} />;
+        if (type === 'image') return <Image {...params} />;
         return null;
       },
     },

@@ -4,7 +4,7 @@ import './styles.scss';
 
 export default ({ chartuid, range, charttype = 'Bar', rangetable }) => (
   <div className="Charts">
-    <div>
+    <div className="Charts__table">
       <Chart
         charttype="Table"
         url={`https://docs.google.com/spreadsheets/d/${chartuid}/edit?range=${rangetable}#gid=0`}

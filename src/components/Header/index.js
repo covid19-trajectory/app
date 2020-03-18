@@ -6,11 +6,7 @@ export default () => (
   <header className="Header">
     <Link to={'/'}>
       <strong>Epidemia koronawirusa w Polsce</strong>
-      <div>
-        statystyki, analiza, prognoza dalszego rozwoju, porównanie z innymi
-        krajami
-      </div>
     </Link>
-    <div></div>
+    <div>statystyki, analizy, prognozy dalszego rozwoju</div>
   </header>
 );
