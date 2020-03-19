@@ -3,7 +3,7 @@
 > Według zaprezentowanego poniżej modelu, przewidywana liczba zarażeń:
 >
 > - jutro (19 marca): około 410
-> - pojutrze (19 marca): około 550
+> - pojutrze (20 marca): około 550
 >
 > ** Podwojenie liczby zarażonych odbywa się na stałym poziomie, co 2 dni i 7 godzin. **
 >
