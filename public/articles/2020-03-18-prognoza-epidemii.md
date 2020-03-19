@@ -1,4 +1,4 @@
-** Data opracowania: wtorek, 18 marca 2020, godz. 23:30 **
+** Data opracowania: środa, 18 marca 2020, godz. 23:30 **
 
 > Według zaprezentowanego poniżej modelu, przewidywana liczba zarażeń:
 >
