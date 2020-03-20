@@ -64,11 +64,9 @@ Dane z WHO mówią, że od momentu zainfekowania, do wystąpienia pierwszych obj
 
 Zatem, podjęte działania zapobiegawcze mają z tego względu swoją inercję. Na przykład "dziś" zamknięcie szkół będzie zbierać owoce dopiero za około tydzień.
 
-W okresie 5-17 marca widać najmniejsze odchylenie pomiędzy modelem a empiryką. Z uwagi na powyższe, okres ten daje dane empiryczne dla warunków ogólnego zachowania społeczeństwa do ~ 8 marca.
+Zmiana zwyczajnego zachowania społeczeństwie zaczęła się około 9 marca, gdy powoli zaczęły się wzmożone zakupy. 12 marca rząd zdecydował o zamknięciu szkół, później przybywało innych decyzji.
 
-Wzmożone zakupy zaczynały się powoli od 9 marca, a osiągnęły swój szczyt przy okazji pierwszej znaczącej decyzji rządu o zamknięciu szkół z 12 marca.
-
-Zatem, okres 4-17 marca pozwala zbadać, w jakim tempie rozprzestrzeniał się wirus przy zwyczajnych i naturalnych warunkach aktywności społeczeństwa.
+Z uwagi na powyższe, do 17 marca mieliśmy zwyczajne zachowanie społeczeństwa tydzień wcześniej. A zatem pozwala zbadać, w jakim tempie rozprzestrzeniał się wirus przy zwyczajnych i naturalnych warunkach aktywności społeczeństwa.
 
 Powyżej opisaną metodą wyliczamy:
 

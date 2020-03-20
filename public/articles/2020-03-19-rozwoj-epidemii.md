@@ -4,7 +4,7 @@
 
 W dniu 19 marca mijnęło 16 dni od pierwszego zdiagnozowanego zarażenia w Polsce.
 
-Po 16 dniach, mieliśmy ** 355 zarażań ** i ** 5 zgonów **
+Po 16 dniach, mieliśmy **355 zarażań**.
 
 Poniższe krzywe zostały wyliczone:
 
