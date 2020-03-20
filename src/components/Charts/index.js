@@ -2,7 +2,7 @@ import React from 'react';
 import { Chart } from '../';
 import './styles.scss';
 
-export default ({ chartuid, range, charttype = 'Bar', rangetable }) => (
+export default ({ chartuid, range, charttype = 'Bar', rangetable, height }) => (
   <div className="Charts">
     <div className="Charts__table">
       <Chart
@@ -14,6 +14,7 @@ export default ({ chartuid, range, charttype = 'Bar', rangetable }) => (
       <Chart
         charttype={charttype}
         url={`https://docs.google.com/spreadsheets/d/${chartuid}/edit?range=${range}#gid=0`}
+        height={height}
       />
     </div>
   </div>

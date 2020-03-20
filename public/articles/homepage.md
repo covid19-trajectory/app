@@ -1,27 +1,20 @@
 <div
     data-type="article"
-    data-id="2020-03-18-prognoza-epidemii"
+    data-id="2020-03-19-rozwoj-epidemii"
 ></div>
 
 # Czytaj również:
 
 <div
     data-type="teaser"
-    data-id="2020-03-17-prognoza-epidemii"
-    data-title="Archiwum: Prognoza epidemii w Polsce dla danych z dnia 17 marca"
-    data-date="W przygotowaniu"
-></div>
-
-<div
-    data-type="teaser"
-    data-id="prognoza-zgonow"
-    data-title="Prognoza zgonów w Polsce"
-    data-date="Wkrótce"
+    data-id="naturalny-rozwoj-epidemii-w-polsce"
+    data-title="W jakim tempie rozwijałaby się epidemia w Polsce bez podjętych środków zapobiegawczych?"
+    data-date="Data opracowania: piątek, 20 marca 2020, godz. 14:30"
 ></div>
 
 <div
     data-type="teaser"
     data-id="inne-kraje"
-    data-title="Analiza rozwoju i prognozy epidemii w innych krajach"
+    data-title="Porównanie rozwoju epidemii pomiędzy krajami Europy i świata"
     data-date="Wkrótce"
 ></div>
